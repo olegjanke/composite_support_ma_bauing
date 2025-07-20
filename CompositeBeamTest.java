@@ -19,7 +19,7 @@ public class CompositeBeamTest {
 		System.out.printf("MomentkraftB (kNm): %.2f%n", ProfileMRdB);
 
 		// Methode MomentC Ausrechnen
-		double ProfileMRdC = beam.getPointMomentC();
+		double ProfileMRdC = beam.getPointB();
 		System.out.printf("MomentkraftC (kNm): %.2f%n", ProfileMRdC);
 
 		// Methode NormalkraftC Ausrechnen
